@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem id="menu_club_root" name="Club" sequence="75"/>
+
+    <menuitem id="menu_club_membership"
+              name="Memberships"
+              parent="menu_club_root"
+              action="action_club_membership"
+              sequence="10"/>
+
+    <menuitem id="menu_club_plan"
+              name="Membership Plans"
+              parent="menu_club_root"
+              action="action_club_membership_plan"
+              sequence="20"/>
+
+    <menuitem id="menu_club_configuration"
+              name="Configuration"
+              parent="menu_club_root"
+              sequence="90"
+              groups="club_membership.group_club_manager"/>
+
+</odoo>

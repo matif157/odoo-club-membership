@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_club_membership_plan_user,club.membership.plan.user,model_club_membership_plan,group_club_user,1,0,0,0
+access_club_membership_plan_manager,club.membership.plan.manager,model_club_membership_plan,group_club_manager,1,1,1,1
+access_club_membership_user,club.membership.user,model_club_membership,group_club_user,1,1,1,0
+access_club_membership_manager,club.membership.manager,model_club_membership,group_club_manager,1,1,1,1
